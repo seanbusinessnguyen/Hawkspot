@@ -1,0 +1,206 @@
+/* Coders: 
+    - Sumier Qadiri
+    - Minerva Igama
+*/
+
+.navbar {
+  background: linear-gradient(to right, #00cc00, #0080ff);
+  /* background-color: rgba(58, 119, 155, 0.9); */
+
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0 4%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbarLogo {
+  cursor: pointer;
+}
+
+.navbarLogo img {
+  border-radius: 333px;
+}
+
+.fa-firstdraft {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.navMenu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: start;
+  margin-left: 2rem;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.navItem_title > img {
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+}
+
+.navLinks {
+  display: flex;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: rgb(27, 22, 17);
+  cursor: pointer !important;
+  text-decoration: none;
+  height: 50px;
+  align-items: center;
+}
+
+.activeLink {
+  color: #1d8a8b;
+}
+
+.navLinks:hover {
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+  background: linear-gradient(to right, #00cc00, #0080ff);
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.navLinks-mobile {
+  display: none;
+}
+
+.menuIcon {
+  display: none;
+}
+.infoIcon {
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 40px;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+}
+
+.nav-logOut {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: rgb(32, 19, 143);
+  cursor: pointer !important;
+  text-decoration: none;
+  height: 50px;
+  right: 16px;
+  position: absolute;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+  .navLinks {
+    border: none !important;
+  }
+  .infoIcon {
+    display: none;
+  }
+
+  .navMenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    padding-top: 10px;
+  }
+
+  .navMenu.active {
+    background: #fff;
+    left: 0;
+    opacity: 1;
+    margin: 0;
+    z-index: 1;
+  }
+
+  .navLinks {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .navLinks:hover {
+    background-color: #1888ff;
+    border-radius: 0;
+  }
+
+  .menuIcon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .navLinks-mobile {
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    background: #1888ff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .navLinks-mobile:hover {
+    background: #fff;
+    color: #1888ff;
+    transition: 250ms;
+  }
+
+  .navbar {
+    height: 70px;
+  }
+
+  .activeLink {
+    border: 0px;
+  }
+}

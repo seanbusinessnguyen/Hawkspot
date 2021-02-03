@@ -1,0 +1,41 @@
+/* Front-End: 
+    - Sumier Qadiri
+    - Minerva Igama
+*/
+
+.feedback {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./assets/background-hawks.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.feedback {
+  justify-content: center;
+  align-items: center;
+}
+
+.feed {
+  padding: 30px 250px 50px 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget-midget {
+  overflow: hidden;
+  position: absolute;
+  right: 0px;
+  padding-top: 200px;
+}
+
+.feed-Title > img {
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  display: block;
+  padding-top: 80px;
+  background-color: rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}

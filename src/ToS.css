@@ -1,0 +1,38 @@
+/* Coders: 
+    - Sumier Qadiri
+    
+*/
+
+.ToS-backgroundImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../src/assets/background-fountain.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+}
+
+.ToS-para {
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  padding: 50px;
+  font-size: 1.5em;
+}
+
+.ToS-h3 {
+  color: whitesmoke;
+  margin: 10px;
+  padding: 40px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.ToS-h1 {
+  color: whitesmoke;
+  margin: 20px;
+  padding: 50px;
+  text-align: center;
+  font-size: 5em;
+}

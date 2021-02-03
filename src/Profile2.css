@@ -1,0 +1,81 @@
+/* Front-End: 
+    - Sumier Qadiri
+*/
+
+.profile2-body {
+  color: white;
+  font-family: "lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.profile2-body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../src/assets/background-sscb.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin: 0px;
+  padding: 0px;
+}
+
+#profile2-avatar {
+  border-radius: 60%;
+  width: 240px;
+  height: 240px;
+  margin-top: 5%;
+  object-fit: cover;
+  object-position: 0 -8px;
+}
+
+.profile2-container {
+  width: 35%;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 70%;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
+  padding: 50px;
+}
+
+.profile2-content {
+  padding: 30px;
+}
+
+#profile2-userName {
+  color: wheat;
+}
+
+#profile2-studentYear {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  width: 70%;
+  margin: 10px auto;
+  font-weight: 400;
+}
+
+#profile2-bio {
+  font-weight: lighter;
+  letter-spacing: 1px;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.profile2-h3 {
+  margin-top: 20px;
+}
+
+.profile2-socialMedia i {
+  padding: 0 10px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.4s;
+}
+
+.profile2-socialMedia i:hover {
+  color: rgba(255, 255, 255, 1);
+}

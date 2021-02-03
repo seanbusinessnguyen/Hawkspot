@@ -1,0 +1,29 @@
+/* Front-End: 
+    - Sumier Qadiri
+*/
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(90, 108, 114);
+  color: white;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(90, 108, 114);
+  color: white;
+}
+
+.nav-list {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
